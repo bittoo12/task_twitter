@@ -1,0 +1,47 @@
+{
+  "name": "irondevu",
+  "version": "1.0.0",
+  "description": "irondevu website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://anmolrattanbagai@bitbucket.org/suffescom_mobile/irondevudev-nodejs-api.git"
+  },
+  "author": "Suffescom.com",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "ajv": "^8.8.2",
+    "api": "^4.1.1",
+    "async": "^3.2.0",
+    "aws-sdk": "^2.441.0",
+    "body-parser": "^1.18.3",
+    "cluster": "^0.7.7",
+    "connect-multiparty": "^2.2.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^15.0.0",
+    "express": "^4.16.4",
+    "formidable": "^2.0.1",
+    "fs": "0.0.1-security",
+    "install": "^0.13.0",
+    "jimp": "^0.16.1",
+    "jsonexport": "^3.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.25",
+    "mongoose": "^5.5.1",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "multer-s3": "^2.9.0",
+    "npm": "^6.13.4",
+    "objectid": "^3.2.1",
+    "sticky-session": "^1.1.2",
+    "underscore": "^1.13.1",
+    "validator": "^10.11.0"
+  }
+}
